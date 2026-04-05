@@ -1,2 +1,1 @@
-- [ ] fix rust analyzer (it's using the host platform target)
 - [ ] update libraries as much as you can

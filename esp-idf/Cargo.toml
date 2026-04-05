@@ -1,6 +1,7 @@
 [workspace]
 resolver = "3"
 members = ["crates/*", "examples/*"]
+default-members = ["examples/*"]
 
 [workspace.package]
 version = "0.1.0"
@@ -25,7 +26,6 @@ esp-idf-svc = { version = "0.52.1", features = [
 log = "0.4"
 static_cell = "2.1.1"
 zenoh-pico = { path = "crates/zenoh-pico" }
-esp-idf-sys = "0.37"
 esp-idf-config = { path = "crates/esp-idf-config" }
 
 [profile.dev]
