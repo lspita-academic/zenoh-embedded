@@ -11,7 +11,7 @@ bindings_module = "zenoh_pico"
 
 [dependencies]
 embassy-sync.workspace = true
-esp-idf-svc.workspace = true
+esp-idf-sys.workspace = true
 log.workspace = true
 
 [build-dependencies]
